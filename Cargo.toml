@@ -1,0 +1,17 @@
+[package]
+name = "tinylang"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.70"
+description = "A small tree-walking interpreter: lexer, Pratt parser, closures, REPL — from scratch"
+license = "MIT"
+
+[dependencies]
+
+[lib]
+name = "tinylang"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tinylang"
+path = "src/main.rs"
